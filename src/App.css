@@ -1,0 +1,52 @@
+body{
+  /* background-color: black; */
+  display: flex;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  /* height: fit-content;  */
+  display:flex ;
+  align-items: center;
+  background-color: #333;
+  justify-content: space-between; 
+  flex:1
+}
+
+img{
+  float: left;
+}
+
+p{
+  color: white;
+}
+span{
+  color: white;
+}
+h2{
+  color: white;
+}
+.progress {
+  position: relative; /* with scale */
+  height: 20px;
+  width: 500px;
+  background-color: rgb(233, 236, 239);
+  border: 1px solid #c5c5c5;
+  border-radius: 15px;
+  align-items: center;
+  overflow: hidden;
+}
+.progress span{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;}
+
+.progress div{
+  background-color: #00c251;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+}

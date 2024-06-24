@@ -1,0 +1,16 @@
+.light{
+
+    background-color: beige;
+    cursor: pointer;
+}
+
+.dark{
+    background-color: gray;
+}
+
+.panel-light{
+    background-color: beige;
+}
+.panel-dark{
+    background-color: gray;
+}
